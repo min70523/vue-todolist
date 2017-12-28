@@ -1,0 +1,92 @@
+*,p{
+    margin:0;padding:0;list-style: none;
+    box-sizing: border-box;
+}
+body,html{
+    width:100%;height: 100%;
+}
+body{
+    overflow: hidden;
+    background: #ccc;
+}
+header{
+    width: 100%;height: 60px;
+    background: #333;
+}
+.body{
+    width: 600px;
+    margin: 0 auto;
+}
+.search{
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    line-height: 60px;
+}
+.search p{
+    float: left;
+}
+.search input{
+    height: 60%;
+    width: 300px;
+    border-radius: 5px;
+    padding:5px;
+    border: 1px solid #cccccc;
+    margin-left: 15px;
+}
+.title{
+    width: 100%;
+    float: right;
+    margin-bottom: 20px;
+}
+.title input{
+    width: 60px;
+    height: auto;
+    float: right;
+    background: none;
+    border: 1px solid #333;
+    border-radius: 3px;
+    margin-right: 3px;
+    margin-top: 5px;
+}
+.doing li{
+    width: 100%;
+    height: 30px;
+    background: #f2f2f2;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+li>.box{
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 5px;
+
+}
+.doing li .box span{
+    float: left;
+}
+.doing li .box .del{
+    float: right;
+    cursor: pointer;
+}
+.doing li .box .type{
+    float: left;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.red{
+    background: red;
+}
+.state{
+    background: red;
+}
+p{
+    color: #fff;
+    font-size: 20px;
+}
